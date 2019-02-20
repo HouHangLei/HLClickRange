@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+HLClickRange.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    button.backgroundColor = [UIColor redColor];
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    [button hlChangeButtonClickLength:50];
 }
 
+- (void)buttonClick{
+    
+    NSLog(@"触发了");
+}
 
 @end

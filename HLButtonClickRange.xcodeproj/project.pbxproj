@@ -15,6 +15,7 @@
 		8D5BF2E5221D4BD500A1E568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BF2E4221D4BD500A1E568 /* main.m */; };
 		8D5BF2EF221D4BD500A1E568 /* HLButtonClickRangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BF2EE221D4BD500A1E568 /* HLButtonClickRangeTests.m */; };
 		8D5BF2FA221D4BD500A1E568 /* HLButtonClickRangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BF2F9221D4BD500A1E568 /* HLButtonClickRangeUITests.m */; };
+		8D5BF309221D595D00A1E568 /* UIButton+HLClickRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BF307221D595D00A1E568 /* UIButton+HLClickRange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8D5BF2F5221D4BD500A1E568 /* HLButtonClickRangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLButtonClickRangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5BF2F9221D4BD500A1E568 /* HLButtonClickRangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLButtonClickRangeUITests.m; sourceTree = "<group>"; };
 		8D5BF2FB221D4BD500A1E568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5BF307221D595D00A1E568 /* UIButton+HLClickRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HLClickRange.m"; sourceTree = "<group>"; };
+		8D5BF308221D595D00A1E568 /* UIButton+HLClickRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HLClickRange.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		8D5BF2D4221D4BD400A1E568 /* HLButtonClickRange */ = {
 			isa = PBXGroup;
 			children = (
+				8D5BF308221D595D00A1E568 /* UIButton+HLClickRange.h */,
+				8D5BF307221D595D00A1E568 /* UIButton+HLClickRange.m */,
 				8D5BF2D5221D4BD400A1E568 /* AppDelegate.h */,
 				8D5BF2D6221D4BD400A1E568 /* AppDelegate.m */,
 				8D5BF2D8221D4BD400A1E568 /* ViewController.h */,
@@ -264,6 +269,7 @@
 			files = (
 				8D5BF2DA221D4BD400A1E568 /* ViewController.m in Sources */,
 				8D5BF2E5221D4BD500A1E568 /* main.m in Sources */,
+				8D5BF309221D595D00A1E568 /* UIButton+HLClickRange.m in Sources */,
 				8D5BF2D7221D4BD400A1E568 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
